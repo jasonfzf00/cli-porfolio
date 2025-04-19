@@ -1,0 +1,110 @@
+.page {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  color: #eee;
+  font-family: 'Fira Code', 'Courier New', monospace;
+}
+
+.page h2 {
+  color: #5af78e;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+}
+
+.page p {
+  line-height: 1.6;
+  /* margin-bottom: 20px; */
+}
+
+/* Home page styles */
+.intro-section {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Projects page styles */
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-item {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 5px;
+  border-left: 3px solid #5af78e;
+}
+
+.project-item h3 {
+  color: #5af78e;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.tag {
+  background-color: #3a3a3a;
+  color: #57c7ff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 0.8em;
+}
+
+/* Resume page styles */
+.resume-section {
+  margin-bottom: 30px;
+}
+
+.resume-section h3 {
+  color: #57c7ff;
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.skills-list li {
+  background-color: #3a3a3a;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.experience-item, .education-item {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-left: 2px solid #444;
+}
+
+.experience-item h4, .education-item h4 {
+  margin-bottom: 5px;
+  color: #eee;
+}
+
+.experience-details, .education-details {
+  color: #aaa;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 0 15px;
+  }
+} 
