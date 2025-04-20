@@ -37,10 +37,12 @@ Welcome to my CLI-inspired personal website! Try using Linux commands to navigat
   {
     name: 'skills.txt',
     type: 'file',
-    content: `**Programming Languages**: JavaScript, TypeScript, HTML, CSS, Python
-**Frameworks/Libraries**: React, Node.js, Express
-**Tools**: Git, Docker, AWS
-**Other**: Responsive Design, RESTful APIs, GraphQL`
+    content: `**Programming Languages**: Python, JavaScript, TypeScript, HTML, CSS
+**Frameworks/Libraries**: FastAPI, React, Next.js, Ant Design, Tailwind CSS, Material UI
+**Databases**: PostgreSQL, MySQL, MongoDB, vector databases(Faiss, PGVector), Redis
+**Cloud Services**: AWS, Alibaba Cloud, Google Cloud
+**Tools**: Git, Docker, Github Actions, Jenkins, Nginx
+**AI**: LangChain, Transformers, Ollama, PyTorch`
   },
   {
     name: 'resume',

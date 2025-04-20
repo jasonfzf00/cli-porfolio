@@ -27,7 +27,7 @@ const Home: React.FC = () => {
         sx={{ p: 2.5, mt: 2.5 }}
       >
         <Typography variant="body1">
-          I'm a full-stack software engineer and graduate student in Computer Science at Fordham University, currently based in New York City. I specialize in building scalable web applications, integrating AI solutions, and creating tech-driven tools that improve learning and productivity.
+          I'm a full-stack software engineer currently based in New York City. I specialize in building scalable web applications, integrating AI solutions, and creating tech-driven tools that improve learning and productivity.
         </Typography>
         
         <Typography variant="body1" sx={{ mt: 2, mb: 1 }}>
